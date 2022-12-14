@@ -24,7 +24,7 @@ from sklearn import svm
 from sklearn import metrics 
 from sklearn import preprocessing 
 
-from streamlit-option-menu import option-menu
+from streamlit_option_menu import option-menu
 
 with st.sidebar:
     selected = option_menu(
